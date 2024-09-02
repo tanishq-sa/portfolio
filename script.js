@@ -1,3 +1,8 @@
+document.getElementById('hamburger').addEventListener('click', function () {
+    var navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('show'); 
+});
+
 document.getElementById('contact-form').addEventListener('submit', async function(event) {
     event.preventDefault();
 
